@@ -1,0 +1,120 @@
+body {
+    background-color: white;
+
+    background: linear-gradient(45deg, #eeebec 0%, #c19dad 100%);
+
+
+}
+
+.navbar {
+    background: linear-gradient(90deg, #f5f3f4 0%, #c9aeb7 100%);
+}
+
+.dropdown-menu {
+    padding: 10px; 
+  } 
+
+
+.nav-item.separator::after {
+    content: "";
+    display: block;
+    height: 40px; 
+    border-left: 2px solid #555; 
+    margin: 0 10px; 
+  }
+
+  
+  .contact-item a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; width: 35px;
+    color: brown;
+  }
+  .contact-item a i {
+    font-size: 23px; 
+  }
+  
+.slider-image {
+    height: 600px !important;
+    object-fit: cover;
+}
+
+.slider-title {
+    color: black;
+}
+
+.service_icon {
+    font-size: 90px;
+}
+
+.background_custom {
+    color: rgb(213, 206, 206);
+    background-color: #0b0b0b;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg fill-opacity='0.23'%3E%3Cpolygon fill='%2326171d' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%233f1925' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%235e1624' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23810d19' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.delete-btn {
+    display: none;
+    /* Hide delete button by default */
+}
+
+.image-container:hover .delete-btn {
+    display: block;
+    /* Show delete button on image hover */
+}
+
+.nav-top-span {
+    color: white;
+}
+
+
+.contact_div {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    /* Center the content horizontally */
+    justify-content: center;
+    /* Center the content vertically */
+}
+
+.contact-section,
+.query-section {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Example animation styles */
+.animate__animated {
+    animation-duration: 1s;
+}
+
+.animate__fadeIn {
+    animation-name: fadeIn;
+}
+
+.list-group-item {
+    border: none;
+}
+
+.list-group-item {
+    text-align: start;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.map-area {
+    color: red;
+    width: 100%;
+}
+
+.contact_icon {
+    font-size: 40px;
+}
